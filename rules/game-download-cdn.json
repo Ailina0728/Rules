@@ -1,0 +1,60 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_regex": [
+        "^(lol|ks-foundation|riot-client|mock-game|valorant|wildrift|ares|bacon|ritoplus|global)?(\\.secure)?\\.dyn\\.riotcdn\\.net$",
+        "^download[1-9]?\\.epicgames\\.com$",
+        "^[a-z]{2}\\.cdn\\.blizzard\\.com$",
+        "^blzdist-[a-z]{2}([a-z])?\\.necdn\\.leihuo\\.netease\\.com$",
+        "^(gog-cdn-fastly(-cp77)?|recommendations-api|sections|galaxy-promos|marketing-sections)\\.gog\\.com$",
+        "^cache\\d(\\d)?-[a-z]{3}\\d\\.steamcontent\\.com$",
+        "^(xblmodassets2|content[12])\\.prod\\.catalog\\.playfab\\.com$",
+        "^(pf-cdn-content-prod|khmarketcdn|kittyhawk2-prod|cdn-prod-sr-(live-marketplace-endpoint|live-cds-endpoint|weather))\\.azureedge\\.net$"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "gamedownloads-rockstargames-com.akamaized.net",
+        "epicgames-download1.akamaized.net",
+        "fastly-download.epicgames.com",
+        "cloudflare.epicgamescdn.com",
+        "epicgames-download1-1251447533.file.myqcloud.com",
+        "blizzard.gcdn.cloudn.co.kr",
+        "blzddist1-a.akamaihd.net",
+        "blzddistkr1-a.akamaihd.net",
+        "level3.blizzard.com",
+        "level3.ssl.blizzard.com",
+        "gog-cdn.akamaized.net",
+        "xvcf1.xboxlive.com",
+        "xvcf2.xboxlive.com",
+        "assets1.xboxlive.com",
+        "assets2.xboxlive.com",
+        "uplaypc-s-ubisoft.cdn.ubi.com",
+        "uplaypc-s-ubisoft-ww.cdn.ubi.com",
+        "ubisoftconnect.cdn.ubi.com",
+        "uplaypc-s-ubisoft.cdn.ubionline.com.cn",
+        "origin-a.akamaihd.net",
+        "steampipe.akamaized.net",
+        "steampipe-kr.akamaized.net",
+        "steampipe-partner.akamaized.net",
+        "akamai.cdn.steampipe.steamcontent.com",
+        "fastly.cdn.steampipe.steamcontent.com",
+        "steam.eca.qtlglb.com",
+        "steam.naeu.qtlglb.com",
+        "steam.ru.qtlglb.com",
+        "edge.steam-dns.top.comcast.net",
+        "patch-dl.ffxiv.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "137.221.64.0/24",
+        "8.251.135.126/32",
+        "8.251.246.126/32",
+        "104.75.169.19/32"
+      ],
+      "no_resolve": true
+    }
+  ]
+}
